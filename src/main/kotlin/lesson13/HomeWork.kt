@@ -83,4 +83,3 @@ fun analyzeCollection(collection: List<Int>): String {
         else -> "Уникальная"
     }
 }
-
