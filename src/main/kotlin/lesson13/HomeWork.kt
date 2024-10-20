@@ -77,9 +77,10 @@ fun analyzeCollection(collection: List<Int>): String {
         collection.sum() > 10000 -> "Массивная"
         collection.average() == 10.0 -> "Сбалансированная"
         collection.joinToString("").length == 20 -> "Клейкая"
-        collection.maxOrNull() ?: 0 < -10 -> "Отрицательная"
-        collection.minOrNull() ?: 0 > 1000 -> "Положительная"
+        (collection.maxOrNull() ?: 0) < -10 -> "Отрицательная"
+        (collection.minOrNull() ?: 0) > 1000 -> "Положительная"
         collection.containsAll(listOf(3, 14)) -> "Пи***тая"
         else -> "Уникальная"
     }
 }
+
