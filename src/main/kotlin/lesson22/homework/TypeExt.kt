@@ -1,4 +1,4 @@
-package org.example.lesson22
+package org.example.lesson22.homework
 
 fun String?.isValid(): Boolean = this != null && this.isNotBlank()
 fun Int.isOdd(): Boolean = this % 2 != 0

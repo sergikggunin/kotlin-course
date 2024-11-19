@@ -1,4 +1,4 @@
-package org.example.lesson22
+package org.example.lesson22.homework
 
 interface Mapper<T, R> {
     fun map(item: T): R

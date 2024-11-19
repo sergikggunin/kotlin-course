@@ -1,4 +1,4 @@
-package org.example.lesson22
+package org.example.lesson22.homework
 
 class ListValidator<T : Number?> : Validator<List<T?>> {
     override fun validate(item: List<T?>): Boolean {

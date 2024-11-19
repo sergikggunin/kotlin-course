@@ -1,4 +1,4 @@
-package org.example.lesson22
+package org.example.lesson22.homework
 
 fun main() {
     val keys = listOf("one", "two", "three")

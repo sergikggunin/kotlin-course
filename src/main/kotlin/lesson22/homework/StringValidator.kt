@@ -1,4 +1,4 @@
-package org.example.lesson22
+package org.example.lesson22.homework
 
 class StringValidator : Validator<String?> {
     override fun validate(item: String?): Boolean {

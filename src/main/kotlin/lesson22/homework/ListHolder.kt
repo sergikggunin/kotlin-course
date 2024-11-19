@@ -1,4 +1,4 @@
-package org.example.lesson22
+package org.example.lesson22.homework
 
 class ListHolder<T> {
     private val elements = mutableListOf<T>()
